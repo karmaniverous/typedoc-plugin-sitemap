@@ -117,7 +117,7 @@
   },
   "type": "module",
   "types": "dist/index.d.ts",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "dependencies": {
     "fs-extra": "^11.2.0",
     "typedoc": "^0.26.11"
