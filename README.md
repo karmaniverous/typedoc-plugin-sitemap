@@ -6,7 +6,7 @@
 
 # TypeDoc Sitemap Plugin
 
-This plugin generates a sitemap for your [TypeDoc](https://typedoc.org/) documentation site.
+Automagically generate a sitemap for your [TypeDoc](https://typedoc.org/) documentation site!
 
 To install:
 
