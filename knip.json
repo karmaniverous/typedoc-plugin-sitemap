@@ -3,6 +3,8 @@
   "ignoreDependencies": [
     "@types/mocha",
     "auto-changelog",
+    "chai",
+    "@types/chai",
     "jsdom-global",
     "mocha",
     "source-map-support",
