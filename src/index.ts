@@ -4,4 +4,5 @@
  * @packageDocumentation
  */
 
-export { foo, type FooTarget } from './foo';
+export * from './load';
+export * from './PluginOptions';

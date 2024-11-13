@@ -1,24 +1,16 @@
 {
   "author": "Jason Williscroft",
-  "bin": {
-    "mycli": "./dist/cli/mycli/index.js"
-  },
   "bugs": {
-    "url": "https://github.com/karmaniverous/npm-package-template-ts/issues"
+    "url": "https://github.com/karmaniverous/typedoc-plugin-sitemap/issues"
   },
-  "dependencies": {
-    "commander": "^12.1.0"
-  },
-  "description": "A feature-rich NPM package template for TypeScript projects.",
+  "description": "A TypeDoc plugin that generates a sitemap for your documentation site.",
   "devDependencies": {
-    "@commander-js/extra-typings": "^12.1.0",
     "@dotenvx/dotenvx": "^1.22.0",
     "@eslint/js": "^9.14.0",
     "@rollup/plugin-alias": "^5.1.1",
     "@rollup/plugin-commonjs": "^28.0.1",
     "@rollup/plugin-json": "^6.1.0",
     "@rollup/plugin-node-resolve": "^15.3.0",
-    "@rollup/plugin-terser": "^0.4.4",
     "@rollup/plugin-typescript": "^12.1.1",
     "@types/chai": "^5.0.1",
     "@types/eslint__js": "^8.42.3",
@@ -34,7 +26,6 @@
     "eslint-plugin-mocha": "^10.5.0",
     "eslint-plugin-simple-import-sort": "^12.1.1",
     "eslint-plugin-tsdoc": "^0.3.0",
-    "fs-extra": "^11.2.0",
     "jsdom-global": "^3.0.2",
     "knip": "^5.36.3",
     "lefthook": "^1.8.2",
@@ -48,7 +39,6 @@
     "source-map-support": "^0.5.21",
     "ts-node": "^10.9.2",
     "tslib": "^2.8.1",
-    "typedoc": "^0.26.11",
     "typedoc-plugin-mdn-links": "^3.3.6",
     "typedoc-plugin-replace-text": "^4.0.0",
     "typescript": "^5.6.3",
@@ -69,7 +59,7 @@
   "files": [
     "dist"
   ],
-  "homepage": "https://github.com/karmaniverous/npm-package-template-ts#readme",
+  "homepage": "https://github.com/karmaniverous/typedoc-plugin-sitemap#readme",
   "keywords": [
     "chai",
     "eslint",
@@ -85,7 +75,7 @@
   "license": "BSD-3-Clause",
   "main": "dist/cjs/index.js",
   "module": "dist/mjs/index.js",
-  "name": "@karmaniverous/npm-package-template-ts",
+  "name": "@karmaniverous/typedoc-plugin-sitemap",
   "publishConfig": {
     "access": "public"
   },
@@ -122,7 +112,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/karmaniverous/npm-package-template-ts.git"
+    "url": "git+https://github.com/karmaniverous/typedoc-plugin-sitemap.git"
   },
   "scripts": {
     "build": "rimraf dist && rollup --config rollup.config.ts --configPlugin @rollup/plugin-typescript",
@@ -136,5 +126,9 @@
   },
   "type": "module",
   "types": "dist/index.d.ts",
-  "version": "0.6.13"
+  "version": "0.0.0",
+  "dependencies": {
+    "fs-extra": "^11.2.0",
+    "typedoc": "^0.26.11"
+  }
 }

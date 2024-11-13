@@ -14,7 +14,11 @@
     "typescript"
   ],
   "out": "./docs/",
-  "plugin": ["typedoc-plugin-mdn-links", "typedoc-plugin-replace-text"],
+  "plugin": [
+    "typedoc-plugin-mdn-links",
+    "typedoc-plugin-replace-text",
+    "./dist/mjs/index.js"
+  ],
   "projectDocuments": ["./CHANGELOG.md"],
   "replaceText": {
     "replacements": [
@@ -27,5 +31,9 @@
   },
   "searchInComments": true,
   "searchInDocuments": true,
-  "titleLink": "https://github.com/karmaniverous/npm-package-template-ts"
+  "sitemap": {
+    "baseUrl": "https://docs.karmanivero.us/typedoc-plugin-sitemap"
+  },
+  "titleLink": "https://github.com/karmaniverous/typedoc-plugin-sitemap",
+  "visibilityFilters": {}
 }
