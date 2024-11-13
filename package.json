@@ -61,16 +61,8 @@
   ],
   "homepage": "https://github.com/karmaniverous/typedoc-plugin-sitemap#readme",
   "keywords": [
-    "chai",
-    "eslint",
-    "lefthook",
-    "mocha",
-    "npm",
-    "nyc",
-    "prettier",
-    "rollup",
-    "template",
-    "typescript"
+    "sitemap",
+    "typedoc-plugin"
   ],
   "license": "BSD-3-Clause",
   "main": "dist/cjs/index.js",
