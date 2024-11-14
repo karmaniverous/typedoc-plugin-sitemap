@@ -1,3 +1,5 @@
+> **THIS REPO IS DEPRECATED!** Typedoc's [`hostedBaseUrl`](https://typedoc.org/options/output/#hostedbaseurl) option now generates a sitemap natively.
+
 <!-- TYPEDOC_EXCLUDE -->
 
 > [API Documentation](https://karmaniverous.github.io/typedoc-plugin-sitemap) • [CHANGELOG](https://github.com/karmaniverous/typedoc-plugin-sitemap/tree/main/CHANGELOG.md)
